@@ -1,0 +1,137 @@
+.headerHome{
+  margin: -760px 0px 0px;
+  max-width: 1300px;
+  .stackHome{
+    padding: 15px 0px;
+    .logo{
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .Services{
+      .ServicesDropdown{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #1C2629;
+        padding: 0px 0px 0px 30px;
+        background: none;
+        border: none;
+        box-shadow: none;
+        &:hover{
+          cursor: pointer;
+          opacity: 0.7;
+        }
+      }
+      .dropdown-menu{
+        width: 288px;
+        background: rgba(255, 255, 255, 0.5);
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+      }
+    }
+    .nav{
+      margin-left: auto;
+      .nav-link{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #1C2629;
+        padding: 0px 0px 0px 30px;
+        &:hover{
+          cursor: pointer;
+          opacity: 0.7;
+        }
+      }
+    }
+    .hireButton{
+      background: none;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0px;
+      margin-left: 45px;
+      width: 116px;
+      border: 1px solid #1976D2;
+      border-radius: 4px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      color: #1976D2;
+      &:hover{
+        color: #FFFF;
+        background: #1976D2;
+      }
+    }
+    .menu{
+      display: none;
+      .menuDropdown{
+        background: none;
+        border: none;
+        box-shadow: none;
+      }
+      .dropdown-menu{
+        padding: 20px;
+        position: relative;
+        width: 289.17px;
+        background: #0D47A1;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        p{
+          font-family: 'Mulish';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          color: #FFFFFF
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .headerHome{
+    margin: -760px 0px 0px;
+    .stackHome{
+      padding: 15px 0px;
+      .Services{
+        .ServicesDropdown{
+          font-size: 16px;
+          padding: 0px 0px 0px 30px;
+        }
+        .dropdown-menu{
+          width: 288px;
+        }
+      }
+      .nav{
+        display: none;
+      }
+      .hireButton{
+        display: none;
+      }
+      .menu{
+        display:inline;
+        margin-left: auto;
+      }
+    }
+  }
+}
+@media (max-width: 550px) {
+  .headerHome{
+    margin: -790px 0px 0px;
+  }
+}

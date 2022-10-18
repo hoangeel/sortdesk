@@ -1,0 +1,235 @@
+.home{
+  .contentHome{
+    .Insights{
+      .titleInsights{
+        font-family: 'Recursive';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 130%;
+        text-transform: capitalize;
+        color: #1C2629;
+        margin-bottom: 30px;
+      }
+      .All{
+        align-items: center;
+        padding: 8px 16px;
+        border: 1px solid #1976D2;
+        border-radius: 4px;
+        margin-right: 10px;
+        background: none;
+        color: #1976D2;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 18px;
+        align-items: center;
+        &:hover{
+          color: #FFFFFF;
+          background: #0D47A1;
+          cursor: pointer;
+        }
+      }
+      .groupButtonTop{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+      }
+      .groupButtonBottom{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+      }
+    }
+    .groupVideo{
+      margin-top: -54px;
+      .cardVideo{
+        padding: 30px;
+        max-width: 400px;
+        border: 1px solid rgba(150, 150, 150, 0.3);
+        border-radius: 5px;
+        margin-bottom: 50px;
+        .video{
+          margin-bottom: 15px;
+        }
+        .textVideo{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: #969696;
+          margin-bottom: 5px;
+        }
+        .titleVideo{
+          max-width: 300px;
+          font-family: 'Recursive';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 36px;
+          align-items: center;
+          text-transform: capitalize;
+          color: #1C2629;
+          margin-bottom: 0px;
+        }
+      } 
+    }
+    .groupButton{
+      text-align: center;
+      .buttonGroup{
+        .button{
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          padding: 9px 12px;
+          width: 50px;
+          height: 50px;
+          border: 1px solid #1976D2;
+          border-radius: 5px;
+          margin: 0px 7.5px 100px;
+          background: none;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 150%;
+          color: #1976D2;
+          &:hover{
+            background: #1976D2;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 767px){
+  .home{
+    .contentHome{
+      .Insights{
+        .titleInsights{
+          margin-top: -70px;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 130%;
+        }
+        .All{
+          padding: 8px 8px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+        }
+        .groupButtonTop{
+          margin-bottom: 10px;
+        }
+        .groupButtonBottom{
+          margin-bottom: 0px;
+        }
+      }
+      .groupVideo{
+        margin-top: -54px;
+        .cardVideo{
+          max-width:100%;
+          margin-bottom: 30px;
+          .textVideo{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+          }
+          .titleVideo{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+          }
+        } 
+      }
+      .groupButton{
+        text-align: center;
+        .buttonGroup{
+          .button{
+            padding: 0px;
+            width: 30px;
+            height: 30px;
+            margin: 0px 7.5px 50px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 500px){
+  .home{
+    .contentHome{
+      .Insights{
+        text-align: center;
+        .titleInsights{
+          margin-top: -70px;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 43px;
+        }
+        .All{
+          padding: 4px 8px;
+          font-size: 17px;
+          margin-bottom: 10px;
+        }
+        .groupButtonTop{
+          margin-bottom: 0px;
+          justify-content: center;
+        }
+        .groupButtonBottom{
+          flex-direction: column;
+          justify-content: center;
+          .all1{
+            width: 156px;
+            margin: 0px auto 10px;
+          }
+          .all2{
+            width: 165px;
+            margin: 0px auto 10px;
+          }
+          .all3{
+            width: 192px;
+            margin: 0px auto 10px;
+          }
+          .all4{
+            width: 228px;
+            margin: 0px auto;
+          }
+        }
+      }
+      .groupVideo{
+        margin-top: -54px;
+        .cardVideo{
+          margin-bottom: 30px;
+          .textVideo{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+          }
+          .titleVideo{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+          }
+        } 
+      }
+      .groupButton{
+        text-align: center;
+        .buttonGroup{
+          .button{
+            padding: 0px;
+            width: 30px;
+            height: 30px;
+            margin: 0px 7.5px 50px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

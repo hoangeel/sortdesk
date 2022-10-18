@@ -1,0 +1,98 @@
+.Insights{
+  padding: 100px 0px;
+  .title{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+  }
+  .InsightsVideo{
+    margin-top: -54px;
+    .cardVideo{
+      max-width: 400px;
+      border: none;
+      background: none;
+      border-radius: 5px;
+      margin-bottom: 50px;
+      .video{
+        margin-bottom: 15px;
+      }
+      .textVideo{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin-bottom: 5px;
+      }
+      .titleVideo{
+        max-width: 300px;
+        font-family: 'Recursive';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 36px;
+        align-items: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-bottom: 0px;
+      }
+    } 
+  }
+  .buttonView{
+    margin: 0px auto;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 139px;
+    height: 54px;
+    background: #1976D2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+    &:hover{
+      background: #FFFFFF;
+      color: #1976D2;
+      border: #1976D2 1px solid;
+    }
+  }
+}
+@media(max-width: 580px){
+  .Insights{
+    padding: 30px 0px;
+    .title{
+      font-size: 36px;
+    }
+    .InsightsVideo{
+      .cardVideo{
+        margin-bottom: 30px;
+        max-width:100%;
+        .textVideo{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+        }
+        .titleVideo{
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 30px;
+          max-width:100%;
+        }
+      } 
+    }
+  }
+}

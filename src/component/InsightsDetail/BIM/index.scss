@@ -1,0 +1,145 @@
+.BIM{
+  padding: 100px 0px 70px;
+  .titleBIM{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: #1C2629;
+    margin-bottom: 71px;
+  }
+  .imgBIM{
+    margin-bottom: 50px;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .whatIsBIM{
+    margin-bottom: 20px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: capitalize; 
+    color: #1C2629;
+  }
+  .textWhatTop{
+    margin-bottom: 40px; 
+    max-width: 620px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #969696;   
+  }
+  .textWhatBottom{
+    margin-bottom: 50px; 
+  }
+  .titleRelated{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin: 86px 0px 50px;
+  }
+  .RelatedVideo{
+    .cardVideo{
+      max-width: 426px;
+      padding: 30px;
+      background: none;
+      border-radius: 5px;
+      border: 1px solid rgba(150, 150, 150, 0.3);
+      border-radius: 5px;
+      margin-bottom: 30px;
+      .video{
+        margin-bottom: 15px;
+      }
+      .textVideo{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin-bottom: 5px;
+        color: #969696;
+      }
+      .titleVideo{
+        max-width: 300px;
+        font-family: 'Recursive';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 36px;
+        align-items: center;
+        text-transform: capitalize;
+        margin-bottom: 0px;
+        color: #1C2629; 
+      }
+    } 
+  }
+}
+@media(max-width:767px){
+  .BIM{
+    padding: 17px 0px 0px;
+    .titleBIM{
+      text-align: center;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+    }
+    .imgBIM{
+      margin-bottom: 30px;
+    }
+    .whatIsBIM{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+    }
+    .textWhatTop{
+      margin-bottom: 20px; 
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;  
+    }
+    .textWhatBottom{
+      margin-bottom: 30px; 
+    }
+    .titleRelated{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      margin: 30px 0px ;
+    }
+    .RelatedVideo{
+      .cardVideo{
+        max-width: 100%;
+        padding: 30px;
+        background: none;
+        border-radius: 5px;
+        border: 1px solid rgba(150, 150, 150, 0.3);
+        border-radius: 5px;
+        margin-bottom: 30px;
+        .titleVideo{
+          max-width: 100%;
+          font-family: 'Recursive';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 36px;
+          align-items: center;
+          text-transform: capitalize;
+          margin-bottom: 0px;
+          color: #1C2629; 
+        }
+      } 
+    }
+  }
+}

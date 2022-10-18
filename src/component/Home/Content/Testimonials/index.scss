@@ -1,0 +1,162 @@
+.testimonials{
+  text-align: center;
+  margin-top: -580px;
+  .img{
+    width: 100px;
+    height: 100px;
+  }
+  .title{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1C2629;
+    margin-bottom: 15px;
+  }
+  .text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #969696;
+    margin-bottom: 50px;
+  }
+}
+.saying{
+  text-align: center;
+  .text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #969696;
+    max-width: 860px;
+    margin: 0px auto 25px;
+  }
+  .groupStar{
+    display: block;
+    margin: 0px auto;
+    .star{
+      margin-right: 8px;
+    }
+  }
+  .name{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #1C2629;
+    margin-bottom: 0px;
+  }
+  .textName{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0D47A1;
+    margin-bottom: 30px;
+  }
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #0D47A1;
+  height: 5px;
+}
+.carousel-indicators .active {
+  opacity: 1;
+  width: 45px;
+}
+.sayingCarousel{
+  margin: 520px 0px 137px;
+  .carousel-control-prev{
+    .carousel-control-prev-icon{
+      display: none;
+    }
+  }
+  .carousel-control-next{
+    .carousel-control-next-icon{
+      display: none;
+    }
+  }
+  .carousel-inner{
+    overflow:initial;
+    .carousel-item{
+      .carousel-caption{
+        padding: 0px;
+      }
+    }
+  }
+}
+
+@media(max-width: 992px){
+  .sayingCarousel{
+    margin: 620px 0px 137px;
+  }
+}
+@media(max-width: 768px){
+  .sayingCarousel{
+    margin: 720px 0px 137px;
+  }
+}
+@media(max-width: 550px){
+  .testimonials{
+    text-align: center;
+    margin-top: -480px;
+    .img{
+      width: 75px;
+      height: 75px;
+    }
+    .title{
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 38px;
+      margin-bottom: 15px;
+    }
+    .text{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      margin-bottom: 50px;
+    }
+  }
+  .saying{
+    .text{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      max-width: 315px;
+      margin: 0px auto 25px;
+    }
+  }
+  .sayingCarousel{
+    margin: 600px 0px 137px;
+  }
+}
+@media(max-width: 500px){
+  .sayingCarousel{
+    margin: 750px 0px 50px;
+  }
+}
+@media(max-width: 480px){
+
+  .sayingCarousel{
+    margin: 700px 0px 50px;
+  }
+}
+@media(max-width: 375px){
+  .sayingCarousel{
+    margin: 750px 0px 50px;
+  }
+}
+@media(max-width: 320px){
+  .sayingCarousel{
+    margin: 800px 0px 50px;
+  }
+}

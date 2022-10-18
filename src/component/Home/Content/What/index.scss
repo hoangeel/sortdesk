@@ -1,0 +1,105 @@
+.what{
+  padding: 100px 0px;
+  background: #0D47A1;
+  margin: 0px auto;
+  .titleWhat{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+  .textWhat{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+  }
+  .contentWhat{
+    display: flex;
+    flex-direction: row;
+    .card{
+      background: none;
+      border: none;
+      .CardBody{
+        padding: 0px ;
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        .imgCard{
+          margin:0px 25px 0px 0px;
+          img{
+            width: 50px;
+            height: 50px;
+          }
+        }
+        .contentCard{
+          .CardTitle{
+            font-family: 'Recursive';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+          }
+          .CardText{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #90CAF9;
+          }
+        }
+      }
+    }
+    .Crazy{
+      margin: 0px 50px;
+    }
+  }
+}
+@media(max-width: 992px){
+  .what{
+    padding: 50px 30px;
+    .titleWhat{
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 38px
+    }
+    .textWhat{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      margin-bottom: 50px;
+    }
+    .contentWhat{
+      display: flex;
+      flex-direction: column;
+      .card{
+        margin: 0px auto;
+        .CardBody{
+          .imgCard{
+            margin:0px 15px 0px 0px;
+            img{
+              width: 40px;
+              height: 40px;
+            }
+          }
+        }
+      }
+      .Crazy{
+        margin: 50px 0px;
+      }
+    }
+  }
+}

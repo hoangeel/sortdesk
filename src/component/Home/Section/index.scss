@@ -1,0 +1,118 @@
+.Section{
+  .content{
+    margin-top: 268px;
+    .we{
+      font-family: 'Recursive';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 60px;
+      text-transform: capitalize;
+      color: #1C2629;
+      max-width: 750px;
+      margin-bottom: 30px;
+    }
+    .Sortdesk{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #969696;
+      margin-bottom: 30px;
+    }
+    .ScheduleButton{
+      justify-content: center;
+      padding: 15px 0px;
+      width: 207px;
+      background: #1976D2;
+      border: 1px solid #1976D2;
+      border-radius: 4px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.5px;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      &:hover{
+        color:#1976D2;
+        border: #1976D2 1px solid;
+        background: none;
+      }
+    }
+  }
+  .img{
+    margin: 142px 0px 0px 0px;
+    background: url("../../../assets/img/Group\ 7230.png") no-repeat;
+    width: 710px;
+    height: 510.49px;
+  }
+}
+@media (max-width: 1400px) {
+  .Section{
+    .content{
+      margin-top: 168px;
+      .we{
+        font-size: 48px;
+        max-width: 750px;
+        margin-bottom: 30px;
+      }
+      .Sortdesk{
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+      .ScheduleButton{
+        width: 207px;
+        font-size: 16px;
+      }
+    }
+    .img{
+      background-size: 550px 510.49px;
+      width: 550px;
+      height: 510.49px;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .Section{
+    .content{
+      margin-top: 100px;
+      text-align: center;
+      .ScheduleButton{
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .img{
+      background-size: 690px 510.49px;
+      width: 690px;
+      height: 510.49px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Section{
+    .img{
+      margin: 75px auto 0px ;
+      background-size: 500px 400px;
+      width: 500px;
+      height: 400px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .Section{
+    .content{
+      margin-top: 50px;
+    }
+    .img{
+      background-size: 315px 226.49px;
+      width: 315px;
+      height: 226.49px;
+    }
+  }
+}

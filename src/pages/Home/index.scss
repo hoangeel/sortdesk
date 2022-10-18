@@ -1,0 +1,100 @@
+.home{
+  overflow: none;
+  .contentHome{
+    padding: 10px;
+  }
+  .backgroundHome{
+    margin: 0px auto;
+    .Background2{
+      background: url("../../assets/img/Vector\ \(3\).png") no-repeat;
+      background-size: 100% auto;
+      width: 100%;
+      height: 381.75px;
+    }
+    .Background1{
+      margin-top: -580px;
+      background: url("../../assets/img/Frame.png");
+      background-size: 100% auto;
+      width: 100%;
+      height: 959.75px;
+    }
+    .OurServicesBackground1{
+      margin: 271.51px 0px 0px;
+      background: url("../../assets/img/radial d70f.png");
+      width: 487px;
+      height: 487px;
+    }
+    .OurServicesBackground2{
+      margin:-199px 0px 0px auto;
+      background: url("../../assets/img/radial d70f.png");
+      width: 487px;
+      height: 487px;
+    }
+    .TestimonialsBackground{
+      width: 487px;
+      height: 487px;
+      display: block;
+      margin: 231.71px auto 0px;
+    }
+  }
+  .colorWhat{
+    background: #0D47A1;
+  }
+  .colorCustomer{
+    background: rgba(227, 242, 253, 0.25);
+    border-bottom: 1px solid #E3F2FD;
+  }
+  .colorFooter{
+    background: #E3F2FD;
+  }
+}
+@media(max-width: 992px){
+  .home{
+    .backgroundHome{
+      .OurServicesBackground1{
+        margin: 0px auto 0px;
+        background-size: 375px 487px;
+        width: 375px;
+        height: 487px;
+      }
+      .OurServicesBackground2{
+        margin:auto auto 0px ;
+        background-size: 375px 487px;
+        width: 375px;
+        height: 487px;
+        display: block;
+        margin-top: auto;
+      }
+    }
+    .contentHome{
+    }
+  }
+}
+@media(max-width: 550px){
+  .home{
+    .contentHome{
+      padding: 30px;
+    }
+    .backgroundHome{
+      .TestimonialsBackground{
+        width: 315px;
+        height: 315px;
+        margin: 200px auto 0px;
+      }
+    }
+  }
+}
+@media(max-width: 375px){
+  .home{
+    .contentHome{
+      padding: 30px;
+    }
+    .backgroundHome{
+      .TestimonialsBackground{
+        width: 315px;
+        height: 315px;
+        margin: 200px auto 0px;
+      }
+    }
+  }
+}

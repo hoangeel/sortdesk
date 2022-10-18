@@ -1,0 +1,54 @@
+.OurMission{
+  padding: 100px 70px;
+  background: #0D47A1;
+  .imgOur{
+    display: block;
+    margin: 0px auto 30px;
+  }
+  .titleOur{
+    text-align: center;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+  }
+  .textOur{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFD400;
+  }
+}
+.Companies{
+  padding: 50px 70px;
+  background: #E3F2FD;
+  .col{
+    text-align: center;
+  }
+  .titleCompanies{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1C2629;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .OurMission{
+    padding: 30px;
+  }
+  .Companies{
+    padding: 30px;
+  }
+}

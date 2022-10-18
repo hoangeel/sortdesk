@@ -1,0 +1,271 @@
+.weBelieve{
+  padding: 100px 0px;
+  .titleWe{
+    max-width: 1000px;
+    margin-bottom: 54px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1C2629;
+    word-spacing: 25px;
+  }
+  .flexWe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .img{
+      margin: 40px 70px 0px 0px;
+      img{
+        width: 532px;
+        height: 380px
+      }
+    }
+    .content{
+      margin-top: 120px;
+      .title{
+        font-family: 'Recursive';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-transform: capitalize;
+        color: #1C2629;      
+      }
+      .text{
+        max-width: 640px;
+        margin-bottom: 33px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.5px;
+        color: #969696;
+      }
+      .colContent{
+        padding: 0px;
+      }
+      .group{
+        img{
+          height: 64px;
+          margin-right: 10px;
+        }
+        .text{
+          margin-bottom: 78px;
+          max-width: 236px;
+        }
+      }
+    }
+  }
+  .twoText{
+    margin-top: 52px;
+  }
+  .groupLogo{
+    .s{
+      img{
+        display: block;
+        margin: 0px auto 50.19px;
+      }
+    }
+    .aconex{
+      img{
+        display: block;
+        margin: 0px 13px 51.27px auto;
+      }
+    }
+    .projectWise{
+      img{
+        display: block;
+        margin: 0px auto 0px 13px;
+      }
+    }
+    .autodesk{
+      img{
+        display: block;
+        margin: 0px 13px 0px auto;
+      }
+    }
+    .autodesk360{
+      img{
+        display: block;
+        margin: 0px auto 0px 13px;
+      }
+    }
+  }
+}
+
+@media(max-width: 1200px){
+  .weBelieve{
+    .flexWe{
+      .img{
+        margin-top: -30px;
+        img{
+          width: 450px;
+          height: auto;
+        }
+      }
+      .content{
+        margin-top: 0px;
+        .group{
+          text-align: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 992px){
+  .weBelieve{
+    padding: 70px 0px;
+    .titleWe{
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 40px;
+      word-spacing: 5px;
+    }
+    .flexWe{
+      flex-direction: column;
+      .img{
+        margin-top: 30px;
+        img{
+          display: block;
+          margin: 0px auto;
+          width: 532px;
+          height: auto;
+        }
+      }
+      .content{
+        .group{
+          text-align: left;
+          .text{
+            margin-bottom: 0px;
+          }
+        }
+        .title{
+          margin: 54px 0px 20px;
+          font-size: 32px;    
+        }
+        .text{
+          margin-bottom: 25px;
+          font-size: 20px;
+        }
+      }
+    }
+    .twoText{
+      margin-top: 0px;
+    }
+  }
+}
+@media(max-width: 767px){
+  .weBelieve{
+    padding: 70px 0px;
+    .titleWe{
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 40px;
+      word-spacing: 5px;
+    }
+    .flexWe{
+      .img{
+        img{
+          display: block;
+          margin: 0px auto;
+          width: 100%;
+          height: auto;
+        }
+      }
+      .content{
+        .title{
+          margin: 54px 0px 20px;
+          font-size: 32px;    
+        }
+        .text{
+          margin-bottom: 33px;
+          font-size: 20px;
+        }
+        .group{
+          text-align: center;
+          justify-content: center;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 550px){
+  .weBelieve{
+    padding: 30px 0px 0px;
+    .titleWe{
+      font-family: 'Recursive';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center;
+      text-transform: capitalize;
+      word-spacing: 20px;
+    }
+    .flexWe{
+      .content{
+        text-align: center;
+        .title{
+          margin: 30px 0px 20px;
+          font-size: 24px;    
+        }
+        .text{
+          margin-bottom: 20px;
+          font-size: 16px;
+          
+        }
+        .group{
+          img{
+            height: 45px;
+            margin-right: 10px;
+          }
+          .text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+          }
+        }
+        .group{
+          text-align: left;
+          .text{
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+    .groupLogo{
+      .s{
+        img{
+          display: block;
+          margin: 0px auto 20px;
+        }
+      }
+      .aconex{
+        img{
+          margin: 0px auto 20px;
+        }
+      }
+      .projectWise{
+        img{
+          margin: 0px auto 20px;
+        }
+      }
+      .autodesk{
+        img{
+          margin: 0px auto 20px;
+        }
+      }
+      .autodesk360{
+        img{
+          margin: 0px auto 20px;
+        }
+      }
+    }
+  }
+}

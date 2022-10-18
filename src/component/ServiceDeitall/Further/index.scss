@@ -1,0 +1,64 @@
+.Further{
+  padding: 100px 0px;
+  text-align: center;
+  .text{
+    max-width: 940px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #1C2629;
+    margin: 0px auto 30px;
+  }
+  .title{
+    max-width: 940px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1976D2;
+    margin: 0px auto 30px;
+  }
+  .buttonSchedule{
+    justify-content: center;
+    align-items: center;
+    width: 207px;
+    height: 54px;
+    background: #1976D2;
+    border: 1px solid #1976D2;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    &:hover{
+      border: #1976D2;
+      background: none;
+      cursor: pointer;
+      color: #1976D2;
+    }
+  }
+}
+
+@media(max-width: 767px){
+  .Further{
+    padding: 50px 0px;
+    text-align: center;
+    .text{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px
+    }
+    .title{
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}

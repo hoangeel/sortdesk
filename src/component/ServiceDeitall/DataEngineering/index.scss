@@ -1,0 +1,170 @@
+.weBelieve{
+  padding: 100px 0px;
+  .img{
+    img{
+      width: 720px;
+      height: 480px;
+    }
+  }
+  .content{
+    .title{
+      margin: 54px 0px 20px;
+      font-family: 'Recursive';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      text-transform: capitalize;
+      color: #1C2629;      
+    }
+    .text{
+      margin-bottom: 33px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: -0.5px;
+      color: #969696;
+    }
+    .colContent{
+      padding: 0px;
+    }
+    .group{
+      img{
+        height: 64px;
+        margin-right: 10px;
+      }
+      .text{
+        margin-bottom: 78px;
+        max-width: 236px;
+      }
+    }
+  }
+}
+
+@media(max-width: 1400px){
+  .weBelieve{
+    .img{
+      margin-top: 20px;
+      img{
+        width: 580px;
+        height: 400px;
+      }
+    }
+    .content{
+      .group{
+        text-align: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media(max-width: 992px){
+  .weBelieve{
+    padding: 70px 0px;
+    .img{
+      img{
+        display: block;
+        margin: 0px auto;
+        width: 532px;
+        height: 380px;
+      }
+    }
+    .content{
+      .group{
+        text-align: left;
+        .text{
+          margin-bottom: 30px;
+        }
+      }
+      .title{
+        margin: 54px 0px 20px;
+        font-size: 32px;    
+      }
+      .text{
+        margin-bottom: 25px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .weBelieve{
+    padding: 70px 0px;
+    .titleWe{
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 40px;
+      word-spacing: 5px;
+    }
+    .img{
+      img{
+        display: block;
+        margin: 0px auto;
+        width: 532px;
+        height: 380px;
+      }
+    }
+    .content{
+      .title{
+        margin: 54px 0px 20px;
+        font-size: 32px;    
+      }
+      .text{
+        margin-bottom: 33px;
+        font-size: 20px;
+      }
+      .group{
+        img{
+          height: 64px;
+          margin-right: 10px;
+        }
+        .text{
+          margin-bottom: 78px;
+          max-width: 236px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 550px){
+  .weBelieve{
+    padding: 30px 0px 0px;
+    .img{
+      img{
+        display: block;
+        margin: 0px auto;
+        width: 315px;
+        height: 210px;
+      }
+    }
+    .content{
+      text-align: center;
+      .title{
+        margin: 30px 0px 20px;
+        font-size: 24px;    
+      }
+      .text{
+        margin-bottom: 20px;
+        font-size: 16px;
+        
+      }
+      .group{
+        img{
+          height: 45px;
+          margin-right: 10px;
+        }
+        .text{
+          margin-bottom: 20px;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
